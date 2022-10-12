@@ -1,0 +1,88 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+}
+
+.flexboxnav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    padding-right: 5px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li{
+    padding: 1.25vw
+}
+
+h1 {
+    display: flex;
+    padding-left: 5vw;
+}
+
+.flexboxsplash {
+    display: flex;
+    flex: 1 0 auto;
+
+}
+
+#splash2 {
+    display: flex;
+    flex: 1 0 auto;
+   
+}
+
+.flexboxproducts {
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+    background-color: black;
+
+
+    
+
+}
+
+.product {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: space-around;
+    width: 15%;
+    padding: 10px;
+    flex: 1 0 auto;
+    border: 1px solid black
+    border-radius: 5%;
+}
+
+#about {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    
+
+}
+
+#quote {
+    background-color: purple;
+    padding: 50px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;;
+}
+
+#calltoaction {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;;
+
+}
+
+footer{
+    text-align: center;
+}
